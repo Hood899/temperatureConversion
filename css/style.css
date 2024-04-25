@@ -1,0 +1,88 @@
+/* Add all your styles here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+body {
+  background: linear-gradient(to bottom right, #3498db, #e74c3c);
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+#temperatureForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: -5px 4px 6px;
+  border: none;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  font-size: 20px ;
+  font-weight: bold;
+  color: black;
+}
+
+#fromUnit, #toUnit {
+  margin: 15px  0 15px 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px ;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+}
+
+input[type="number"] {
+  padding: 10px 16px;
+  margin-top: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+}
+
+#submit {
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
+  padding: 8px 10px;
+  background-color: orangered ;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+
+
+#textDisplay {
+  font-size: 16px ;
+  margin: 10px 0 10px 0;
+  color: black;
+  font-weight: bold ;
+}
+
+#result {
+  margin-top: 22px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
